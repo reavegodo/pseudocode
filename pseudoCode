@@ -1,6 +1,6 @@
 Début addition (réel argent dispo, réel prix unitaire bonbon)
 
     	Faire réel argent dispo - réel prix unitaire bonbon
-	Repeter actions tant que d'argent inferieur pour acheter des bonbons
+	Repeter actions tant que d'argent supérieur pour acheter des bonbons
 	Bonbon total acheter 
 Fin addition
