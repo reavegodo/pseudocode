@@ -1,6 +1,19 @@
 Début addition (réel argent dispo, réel prix unitaire bonbon)
 
-    	Faire réel argent dispo - réel prix unitaire bonbon
-	Repeter actions tant que argent supérieur pour acheter des bonbons
-	Bonbon total acheter 
-Fin addition
+    entier nbreMaxBonbons  ← 0
+    reel   resteArgent     ← argent
+    
+    Si argent > 0 ET prix > 0
+
+        Tant que resteArgent >= prix
+           resteArgent    ← resteArgent - prix
+           nbreMaxBonbons ← nbreMaxBonbons + 1
+        Fin Tant que
+
+    Sinon
+        nbreMaxBonbons  ← -1
+    Fin Si
+
+    retourner nbreMaxBonbons 
+
+fin nbreBonbonsPrix
